@@ -20,7 +20,7 @@ var total = 0;
 setInterval(function() {
 
   var length = connectButtons.length;
-  if (length != 0 && !document.getElementById('artdeco-modal-outlet')) {
+  if (length != 0) {
 
     var connectHead = connectButtons[0];
     connectButtons.shift();
